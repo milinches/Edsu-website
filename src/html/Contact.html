@@ -7,11 +7,58 @@
     <title>Contact-us</title>
     <link rel="stylesheet" href="/src/tailwind.css">
     <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/contact.css">
     <link rel="shortcut icon" href="/src/images/logo 1.png" type="image/x-icon">
 </head>
 <body>
     <app-navbar></app-navbar>
     
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class="contactform">
+        <h1>Send us a message</h1>
+
+        <form action="">
+            <div class="form">
+                <div class="input">
+                    <label for="" class="details">Full Name</label>
+                    <input type="text" name="text" id="" placeholder="Enter Full Name">
+                </div>
+                <div class="input">
+                    <label for="" class="details">Email Address</label>
+                    <input type="email" name="email" id="" placeholder="Enter your Email Adress">
+                </div>
+                <div class="input">
+                    <label for="" class="details">Phone Number</label>
+                    <input type="text" name="text" id="" placeholder="Enter a valid phone number">
+                </div>
+                <div class="input">
+                    <label for="" class="details">Matric Number</label>
+                    <input type="text" name="text" id="" placeholder="Enter your Mat. Number">
+                </div>
+                <div class="input">
+                    <label for="" class="details">Message</label>
+                    <textarea name="message" id="" cols="82" rows="3" draggable="false"></textarea>
+                </div>
+            </div>
+        </form>
+        <div class="check">
+            <div class="ch">
+                <input type="checkbox" name="" id="">
+                <label for="">Accept terms & conditions</label>
+            </div>
+            <button class="submit">SEND</button>
+        </div>
+    </div>
+    <div class="address">
+        <div class="add">
+            <img src="/src/images/location.png" alt="" width="30px">
+            <p>Km7, Abuja</p>
+        </div>
+    </div>
     <script src="/src/js/NavComponent.js"></script>
 </body>
 </html>
