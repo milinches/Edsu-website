@@ -6398,10 +6398,6 @@ video {
   height: 100vh;
 }
 
-.h-1\/8 {
-  height: 85%;
-}
-
 .max-h-0 {
   max-height: 0px;
 }
@@ -17822,6 +17818,10 @@ video {
 
 .bg-gradient-to-tl {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.bg-programBG {
+  background-image: url('/images/programBackground.png');
 }
 
 .from-transparent {
@@ -37884,10 +37884,6 @@ video {
     height: 100vh;
   }
 
-  .sm\:h-1\/8 {
-    height: 85%;
-  }
-
   .sm\:max-h-0 {
     max-height: 0px;
   }
@@ -49242,6 +49238,10 @@ video {
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-programBG {
+    background-image: url('/images/programBackground.png');
   }
 
   .sm\:from-transparent {
@@ -69292,10 +69292,6 @@ video {
     height: 100vh;
   }
 
-  .md\:h-1\/8 {
-    height: 85%;
-  }
-
   .md\:max-h-0 {
     max-height: 0px;
   }
@@ -80650,6 +80646,10 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-programBG {
+    background-image: url('/images/programBackground.png');
   }
 
   .md\:from-transparent {
@@ -100700,10 +100700,6 @@ video {
     height: 100vh;
   }
 
-  .lg\:h-1\/8 {
-    height: 85%;
-  }
-
   .lg\:max-h-0 {
     max-height: 0px;
   }
@@ -112058,6 +112054,10 @@ video {
 
   .lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-programBG {
+    background-image: url('/images/programBackground.png');
   }
 
   .lg\:from-transparent {
@@ -132108,10 +132108,6 @@ video {
     height: 100vh;
   }
 
-  .xl\:h-1\/8 {
-    height: 85%;
-  }
-
   .xl\:max-h-0 {
     max-height: 0px;
   }
@@ -143466,6 +143462,10 @@ video {
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-programBG {
+    background-image: url('/images/programBackground.png');
   }
 
   .xl\:from-transparent {
@@ -163516,10 +163516,6 @@ video {
     height: 100vh;
   }
 
-  .\32xl\:h-1\/8 {
-    height: 85%;
-  }
-
   .\32xl\:max-h-0 {
     max-height: 0px;
   }
@@ -174874,6 +174870,10 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-programBG {
+    background-image: url('/images/programBackground.png');
   }
 
   .\32xl\:from-transparent {
