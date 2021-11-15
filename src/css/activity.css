@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.list-heading {
+    margin: 2rem 0;
+}
+
+.list-heading h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    padding: 15px;
+    text-align: center;
+}
+
+.list-heading p {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: small;
+    word-wrap: break-word;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+}
+
+.activity .text {
+    display: block;
+    padding-left: 30px;
+}
+
+.activity .text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.activity .text p {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.activity .text span {
+    color: blue;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.button button{
+    text-align: center;
+    background: #203B93;
+    color: white;
+    padding: 10px 20px;
+    width: 15%;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.6s linear;
+}
+
+.button button:hover {
+    background: #4158a3;
+}

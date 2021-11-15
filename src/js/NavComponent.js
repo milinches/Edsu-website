@@ -11,7 +11,7 @@ class Navbar extends HTMLElement {
                         <li><a href="/src/html/Home.html">Home</a></li>
                         <li><a href="/src/html/About.html">About</a></li>
                         <li><a href="/src/html/Programs.html">Programs</a></li>
-                        <li><a href="#">Activity</a></li>
+                        <li><a href="/src/html/Activity.html">Activity</a></li>
                         <li><a href="/src/html/Contact.html">Contact Us</a></li>
                         <li><a href="#">Students</a></li>
                     </ul>
