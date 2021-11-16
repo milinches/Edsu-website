@@ -8,10 +8,59 @@
     <link rel="stylesheet" href="/src/tailwind.css">
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="shortcut icon" href="/src/images/logo 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="/src/fontawesome/css/all.css">
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
-<body>
+<body >
     <app-navbar></app-navbar>
-    
+    <section class=" h-96 w-4/5 m-auto flex justify-center items-center bg-cover bg-programBG" style="background-image: url(../images/programBackground.png);">
+        <div class="w-2/5 m-auto text-center text-white px-8 h-72 flex flex-col justify-center">
+            <div>
+                <h1 class="text-6xl  font-bold">
+                    Programs
+                </h1>
+            </div>
+            <div class="mt-4">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident reiciendis quidem inventore fugit id. Reiciendis nostrum vitae dolore. Aut debitis sint corrupti quasi eius enim commodi. Fugiat repudiandae natus beatae.
+                </p>
+            </div>
+            <div class="w-4/5 m-auto flex justify-between">
+                <button class=" bg-primary w-40 h-14 font-bold text-sm hover:bg-white hover:text-primary">BSc DEGREES</button>
+                <button class=" bg-primary w-40 h-14 font-bold text-sm hover:bg-white hover:text-primary">MASTER'S DEGREES</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Section after the head -->
+    <section class="w-4/5 m-auto">
+        <div class="w-full flex ">
+            <div class="w-1/2 flex justify-center items-center px-5 py-5">
+                <img src="../images/overlay.png" alt="" class="w-4/5">
+            </div>
+            <div class="w-1/2 flex flex-col justify-between items-start py-8">
+                <span class="block text-primary font-bold text-sm">
+                    NEW <br> PROGRAMS
+                </span>
+                
+                <h1 class="font-bold uppercase text-2xl ">
+                    Master's Degree Program
+                </h1>
+                <p class=" w-11/12">
+                    " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto a harum pariatur maiores sit praesentium minus nemo nobis. Dolores nobis ad dolor modi maxime nulla architecto eligendi aperiam tenetur quisquam. Adipisci, in doloribus. Mollitia quaerat tempora a adipisci, molestias impedit officiis voluptate maiores! Doloribus, consequuntur nobis numquam quam autem aut? "
+                </p>
+                <button>
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </section>
+
     <script src="/src/js/NavComponent.js"></script>
 </body>
 </html>
