@@ -13,7 +13,7 @@ class Navbar extends HTMLElement {
                         <li><a href="/src/html/Programs.html">Programs</a></li>
                         <li><a href="/src/html/Activity.html">Activity</a></li>
                         <li><a href="/src/html/Contact.html">Contact Us</a></li>
-                        <li><a href="#">Students</a></li>
+                        <li><a href="/src/html/News.html">News</a></li>
                     </ul>
                 </nav>
                 <div class="btn">
