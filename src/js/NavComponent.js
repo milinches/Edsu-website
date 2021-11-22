@@ -1,7 +1,7 @@
 class Navbar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <header class="ml-16 mr-16 mt-3">
+            <header class="mt-3 pb-4 mb-4">
                 <div class="nav flex flex-row">
                     <img src="/src/images/logo 1.png" alt="EDSU Logo" width="50.91px">
                     <p>Edo State <br> Univeristy Uzairue</p>
@@ -21,7 +21,6 @@ class Navbar extends HTMLElement {
                     <button class="button2">LMS</button>
                 </div>
             </header>
-            <hr>
         `
     }
 }
@@ -41,11 +40,11 @@ class Footer extends HTMLElement {
 
             <div class="footer">
                 <div class="nav">
-                    <div class="ite flex flex-row">
+                    <div class="ite flex flex-row mb-4">
                         <img src="/src/images/logo 1.png" alt="EDSU Logo" width="50.91px">
                         <p>Edo State <br> Univeristy Uzairue</p>
                     </div>
-                    <div class="eulogy">
+                    <div class="eulogy mb-7">
                         <p>Ed State University, Uzuaire, lorem ipsum dolor sit met,<br>consectetur adipiscing elit, sed do eiusmod
                         tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud</p>
                     </div>
