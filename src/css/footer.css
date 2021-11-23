@@ -1,7 +1,11 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 .newsletter {
     background-color: #203B93;
     background-image: url('/src/images/bck.svg');
-    width: 95%;
+    width: 80%;
     margin: auto;
     height: 350px;
     margin-bottom: 40px;
@@ -67,19 +71,20 @@
 .footer {
     margin-top: 100px;
     display: flex;
-    justify-content: space-evenly;
+    /* border: 1px solid; */
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
     /* align-items: center; */
 }
 
 .ite p{
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    padding-left: 10px;   
+    font-weight: bold;   
 }
 
 .eulogy p {
     font-family: 'Poppins', sans-serif;
-    padding: 20px 5px;
     font-size: 14px;
 }
 
@@ -90,12 +95,13 @@
 
 .footer .conttab {
     display: flex;
-    justify-content: space-around;
+    width: 35%;
+    justify-content: space-between;
     /* align-items: center; */
 }
 
 .footer .conttab .tabs {
-    padding: 0 50px;
+    width: 30%;
 }
 
 .footer .conttab .tabs p {
@@ -111,26 +117,33 @@
     cursor: pointer;
 }
 
+.touch{
+    width: 25%;
+}
 .footer .touch h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 .footer .touch .midas {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     padding-bottom: 25px;
 }
 
 .footer .touch .midas p{
-    padding-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    width: 80%;
 }
 
 .rights{
     margin-top: 4rem;
+    width: 20%;
+    border: 1px solid;
 }
 
 .rights p {
