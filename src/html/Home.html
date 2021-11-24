@@ -10,6 +10,20 @@
      <link rel="shortcut icon" href="../images/logo 1.png" type="image/x-icon"></head>
      <link rel="stylesheet" href="/src/fontawesome/css/all.css">
 </head>
+<style>
+    .hello{
+        border: 1px solid blue;
+    }
+    .hi{
+        border: 1px solid rgb(0, 255, 0);
+    }
+    .where{
+        border: 1px solid rgb(255, 166, 0);
+    }
+    .are{
+        border: 1px solid rgb(0, 247, 255);
+    }
+</style>
      <body>
         <app-navbar></app-navbar>
 
@@ -28,8 +42,8 @@
 
                     <div class=" ">
                         <button class="bg-transparent border-2 border-blue-800 font-bold py-2 px-8 rounded-xl inline-flex items-center" >
-                            <span class=" text-sm font-bold text-blue-800">Learn More</span> 
-                            <i class="fa-solid fa-arrow-right-long fill-current w-4 h-4 ml-3 text-blue-800"></i>
+                            <span class=" text-sm font-bold text-blue-800">Learn More </span> 
+                            <i class="fa-solid fa-arrow-right-long fill-current w-4 h-4 ml-3 text-blue-800">&RightArrow;</i>
                         </button>
                     </div>
 
@@ -40,15 +54,15 @@
             </div>
         </section>
 
-        <section class="w-11/12 m-auto h-96">
-            <div class="w-full flex h-full m-auto">
-                <div class="w-1/2 h-full ">
-                    <img src="../images/image1.png" class="w-2/5 h-4/5">
+        <div class="w-11/12 m-auto h-96">
+            <div class="w-full flex h-full m-auto ">
+                <div class="w-1/2 h-full justify-between flex flex-col p-2 ml-16 mt-16">
+                    <img src="../images/image1.png" class="w-3/5 h-full">
                 </div>
 
-                <div class="w-1/2 h-full justify-between flex flex-col p-24">
+                <div class="w-1/2 h-full justify-between flex flex-col p-10 mt-14 mr-36">
                     <div class="">
-                        <p class="text-blue-500 font-medium text-sm uppercase">Vice chancellor desk</p>
+                        <p class="text-blue-900 font-medium text-sm uppercase">Vice chancellor desk</p>
                         <p class="text-4xl font-bold">We are <span class="text-primary">World
                             Class</span>. We<br> are Edsu</p>
                     </div>
@@ -60,12 +74,48 @@
 
                     <div class=" ">
                         <img src="../images/signature.png" class="w-1/5 h-3/5">
+                        <br>
                         <p>Prof. Emmanuel Aluyor</p>
                     </div>
-
                 </div>
             </div>
-        </section>
+        </div>
+
+        <div class="hello h-96">
+            <div class="hi w-full h-full m-auto p-20">
+                <div class="where w-11/12 flex-row text-center h-20 ml-24">
+                    <p class="is font-bold text-2xl text-black">Tuitions & Fees</p>
+                    <p class="text-base text-gray-400 font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div class="are flex justify-center w-full">
+                    <div class="p-10">
+                        <div class="mb-5 space-y-2">
+                            <img src="../images/icondb1.png" class="w-14 h-auto">
+                            <p class="text-xl font-bold">Undergraduated Student Fees</p>
+                            <p class="text-base text-gray-400 font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="space-y-2">
+                            <img src="../images/icondb2.png" class="w-14 h-auto">
+                            <p class="text-xl font-bold">LMS Fees</p>
+                            <p class="text-base text-gray-400 font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <div class="mb-5 space-y-2 ">
+                            <img src="../images/icondb3.png" class="w-14 h-auto">
+                            <p class="text-xl font-bold">Post-Graduate Student Fees</p>
+                            <p class="text-base text-gray-400 font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="space-y-2">
+                            <img src="../images/icondb4.png" class="w-14 h-auto">
+                            <p class="text-xl font-bold">Accommodation Fees</p>
+                            <p class="text-base text-gray-400 font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+
     <script src="/src/js/NavComponent.js"></script>
 </body>
 </html>

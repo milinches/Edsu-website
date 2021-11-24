@@ -10,6 +10,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    border-bottom: 1px solid #64DD17;
+    margin: auto;
+    /* border: 1px solid; */
 }
 
 header nav ul {
@@ -70,10 +74,3 @@ header .btn .button2:hover{
     background-color: #3e5cbe;
 }
 
-hr {
-    width: 90%;
-    background-color: #64DD17;
-    text-align: center;
-    margin: 10px auto;
-    height: 1.2px;
-}
