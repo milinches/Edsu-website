@@ -7,26 +7,10 @@
     <title>Home</title>
     <link rel="stylesheet" href="../tailwind.css">
     <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
      <link rel="shortcut icon" href="../images/logo 1.png" type="image/x-icon"></head>
      <link rel="stylesheet" href="/src/fontawesome/css/all.css">
 </head>
-<style>
-    div{
-        /* border: 1px solid rgb(255, 0, 170); */
-    }
-    /* .hello{
-        border: 1px solid blue;
-    }
-    .hi{
-        border: 1px solid rgb(0, 255, 0);
-    }
-    .where{
-        border: 1px solid rgb(255, 166, 0);
-    }
-    .are{
-        border: 1px solid rgb(0, 247, 255);
-    } */
-</style>
      <body>
         <app-navbar></app-navbar>
 
@@ -266,19 +250,43 @@
             </div>
         </div>
 
-        <div class=" w-10/12 m-auto mt-20">
+        <div class=" w-10/12 m-auto my-11">
             <div class="space-y-4 ">
                 <p class="text-2xl font-bold">Latest News</p>
                 <div class="flex flex-row relative">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua</p>
+                    <p class="text-gray-500 font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua</p>
                     <button class="border-blue-800 border-2 px-7 py-3 text-sm font-semibold text-blue-800 rounded-l absolute top-0 right-10 ">Load More</button>
                 </div>
             </div>
-            <div>
-
+            <div class="flex w-full mt-10">
+                <div class="w-3/12 shadow-lg rounded-md m-auto">
+                    <img src="../images/news1.png" class="w-full">
+                    <div class="p-5">
+                        <p class="text-blue-900 font-semibold text-xs">Resumption</p>
+                        <p class="text-gray-800 font-bold text-lg">Approved 2021/2022 Academic calender </p>
+                        <p class="text-gray-500 font-medium text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+                <div class="w-3/12 shadow-lg rounded-md m-auto">
+                    <img src="../images/news2.png" class="w-full">
+                    <div class="p-5">
+                        <p class="text-blue-900 font-semibold text-xs">Student Week </p>
+                        <p class="text-gray-800 font-bold text-lg">Edo State University, Uzairue 2021 Cultural week Activities  </p>
+                        <p class="text-gray-500 font-medium text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+                <div class="w-3/12 shadow-lg rounded-md m-auto">
+                    <img src="../images/news3.png" class="w-full">
+                    <div class="p-5">
+                        <p class="text-blue-900 font-semibold text-xs">Medical</p>
+                        <p class="text-gray-800 font-bold text-lg">Edo State University Medical Outreach</p>
+                        <p class="text-gray-500 font-medium text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
             </div>
+            <div class="mt-20"></div>
 
-        <!-- <app-footer></app-footer> -->
+        <app-footer></app-footer>
 
         <script src="/src/js/NavComponent.js"></script>
     <script src="/src/js/NavComponent.js"></script>
