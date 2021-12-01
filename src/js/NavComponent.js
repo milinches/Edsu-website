@@ -17,8 +17,8 @@ class Navbar extends HTMLElement {
                     </ul>
                 </nav>
                 <div class="btn">
-                    <button class="button1">Sign in</button>
-                    <button class="button2">LMS</button>
+                    <a href="https://edouniversity.instructure.com/"><button class="button1">Sign in</button></a>
+                    <a href="https://edouniversity.instructure.com/"><button class="button2">LMS</button></a>
                 </div>
             </header>
         `

@@ -7,26 +7,10 @@
     <title>Home</title>
     <link rel="stylesheet" href="../tailwind.css">
     <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
      <link rel="shortcut icon" href="../images/logo 1.png" type="image/x-icon"></head>
      <link rel="stylesheet" href="/src/fontawesome/css/all.css">
 </head>
-<style>
-    div{
-        /* border: 1px solid rgb(255, 0, 170); */
-    }
-    /* .hello{
-        border: 1px solid blue;
-    }
-    .hi{
-        border: 1px solid rgb(0, 255, 0);
-    }
-    .where{
-        border: 1px solid rgb(255, 166, 0);
-    }
-    .are{
-        border: 1px solid rgb(0, 247, 255);
-    } */
-</style>
      <body>
         <app-navbar></app-navbar>
 
@@ -133,31 +117,33 @@
             <div class="w-11/12 text-center h-20 m-auto">
                 <p class="font-bold text-3xl text-black">Why Choose Edo State University?</p>
             </div>
-            <div class="shadow-lg rounded-md p-3">
-                <div class="w-3/7 flex">
-                    <img src="../images/icon1.png" class="w-10 h-10 m-auto">
-                    <p class="text-xl font-bold mt-1 text-greyTwo">E-Library</p>
+            <div class="w-full flex m-auto">
+                <div class="shadow-lg rounded-md p-3 m-auto">
+                    <div class="w-7/12 flex space-x-5">
+                        <img src="../images/icon1.png" class="w-10 h-10">
+                        <p class="text-xl font-bold mt-1 text-greyTwo">E-Library</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 font-semibold mt-4 w-64">The library is the heart and lifeline of any citadel of learning. We also have an E-library where resources are made available at the comfort of your hostels.</p>
+                    </div>
                 </div>
-                <div>
-                    <p class="text-xs text-gray-500 font-semibold mt-4 w-64">The library is the heart and lifeline of any citadel of learning. We also have an E-library where resources are made available at the comfort of your hostels.</p>
+                <div class="shadow-lg rounded-md p-3 m-auto">
+                    <div class="w-full flex">
+                        <img src="../images/icon1.png" class="w-10 h-10 m-auto">
+                        <p class="text-xl font-bold mt-1 text-greyTwo">Serene environment</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 font-semibold mt-4 w-64">Edo State University, Uzairue, is located in a serene environment which fosters learning and development amongst students. </p>
+                    </div>
                 </div>
-            </div>
-            <div class="shadow-lg rounded-md p-3">
-                <div class="w-3/7 flex">
-                    <img src="../images/icon1.png" class="w-10 h-10 m-auto">
-                    <p class="text-xl font-bold mt-1 text-greyTwo">Serene environment</p>
-                </div>
-                <div>
-                    <p class="text-xs text-gray-500 font-semibold mt-4 w-64">Edo State University, Uzairue, is located in a serene environment which fosters learning and development amongst students. </p>
-                </div>
-            </div>
-            <div class="shadow-lg rounded-md p-3">
-                <div class="w-3/7 flex">
-                    <img src="../images/icon1.png" class="w-10 h-10 m-auto">
-                    <p class="text-xl font-bold mt-1 text-greyTwo">Canvas LMS</p>
-                </div>
-                <div>
-                    <p class="text-xs text-gray-500 font-semibold mt-4 w-64">We make sure our students are always engaged in learning by providing them a Learning Management System, that way everyone can be engaged in academic studies on an off campus. </p>
+                <div class="shadow-lg rounded-md p-3 m-auto">
+                    <div class="w-9/12 flex space-x-5">
+                        <img src="../images/icon1.png" class="w-10 h-10">
+                        <p class="text-xl font-bold mt-1 text-greyTwo">Canvas LMS</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 font-semibold mt-4 w-64">We make sure our students are always engaged in learning by providing them a Learning Management System, that way everyone can be engaged in academic studies on an off campus. </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -167,7 +153,9 @@
                 <p class="font-bold text-3xl text-black">What path you will take?</p>
                 <p class="text-xs text-gray-500 font-semibold mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
-            <div class="flex w-full space-x-14 m-auto">
+
+            <div class="flex w-full space-x-24 m-auto mt-10">
+
                 <div class="shadow-lg rounded-md p-10 w-3\/6">
                     <div class="w-3/7 flex flex-col">
                         <img src="../images/major.png" class="w-10 h-10 m-auto mb-2">
@@ -193,6 +181,7 @@
                     </div>
                     <div>
                         <p class="text-xs text-gray-500 font-semibold mt-3 w-60">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. </p>
+
                     </div>
                 </div>
             </div>
@@ -212,13 +201,100 @@
                             <div class='space-y-2'>
                                 <p class="font-bold text-xl">Otti Daniel</p>
                                 <p class="font-normal text-sm text-gray-700">Faculty of Computer Science and Mathematics 2020</p>
-                                <img src="../images/dotSlider.png" class="w-30 text-center ">
+                                <div class="relative">
+                                    <img src="../images/dotSlider.png" class="w-24 text-center absolute inset-x-16 top-16 ">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class=" w-10/12 m-auto">
+            <div class="space-y-4 ">
+                <p class="text-2xl font-bold"> Upcoming Activity</p>
+                <div class="flex flex-row relative">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua</p>
+                    <button class="border-blue-800 border-2 px-7 py-3 text-sm font-semibold text-blue-800 rounded-l absolute top-0 right-10 ">Load More</button>
+                </div>
+            </div>
+            <div class="flex justify-between w-full m-auto flex-wrap h-auto mt-2">
+                <div class="flex w-5/12">
+                    <div class="w-4/7 flex p-2 space-x-16">
+                        <img src="../images/date.png" class="w-44 m-auto">
+                        <div class="m-auto">
+                            <p class="text-xl font-bold">Opening a New Academic <br>Session</p>
+                            <p class="text-xs text-gray-500 font-semibold">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor incididunt consequat. Duis aute irure <br> dolor in reprehenderit involuptate velit esse cillum dolore eu <strong class="text-blue-800">Continue Reading...</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-5/12">
+                    <div class="w-4/7 flex p-2 space-x-16">
+                        <img src="../images/date1.png" class="w-48 m-auto">
+                        <div class="m-auto">
+                            <p class="text-xl font-bold">We invite you to the 3rd <br>Convocation Ceremony</p>
+                            <p class="text-xs text-gray-500 font-semibold">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor incididunt consequat. Duis aute irure <br> dolor in reprehenderit involuptate velit esse cillum dolore eu <strong class="text-blue-800">Continue Reading...</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="w-10/12 m-auto h-auto p-3 mt-20">
+            <div class="flex justify-between flex-wrap ">
+                <div class="w-4/6 text-center h-20 m-auto">
+                    <p class="font-bold text-3xl text-black">Take a Tour</p>
+                </div>
+                <div class="w-full h-full">
+                    <img src="../images/video.png">
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class=" w-10/12 m-auto my-11">
+            <div class="space-y-4 ">
+                <p class="text-2xl font-bold">Latest News</p>
+                <div class="flex flex-row relative">
+                    <p class="text-gray-500 font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua</p>
+                    <button class="border-blue-800 border-2 px-7 py-3 text-sm font-semibold text-blue-800 rounded-l absolute top-0 right-10 ">Load More</button>
+                </div>
+            </div>
+            <div class="flex w-full mt-10">
+                <div class="w-3/12 shadow-lg rounded-md m-auto">
+                    <img src="../images/news1.png" class="w-full">
+                    <div class="p-5">
+                        <p class="text-blue-900 font-semibold text-xs">Resumption</p>
+                        <p class="text-gray-800 font-bold text-lg">Approved 2021/2022 Academic calender </p>
+                        <p class="text-gray-500 font-medium text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+                <div class="w-3/12 shadow-lg rounded-md m-auto">
+                    <img src="../images/news2.png" class="w-full">
+                    <div class="p-5">
+                        <p class="text-blue-900 font-semibold text-xs">Student Week </p>
+                        <p class="text-gray-800 font-bold text-lg">Edo State University, Uzairue 2021 Cultural week Activities  </p>
+                        <p class="text-gray-500 font-medium text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+                <div class="w-3/12 shadow-lg rounded-md m-auto">
+                    <img src="../images/news3.png" class="w-full">
+                    <div class="p-5">
+                        <p class="text-blue-900 font-semibold text-xs">Medical</p>
+                        <p class="text-gray-800 font-bold text-lg">Edo State University Medical Outreach</p>
+                        <p class="text-gray-500 font-medium text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20"></div>
+
+        <app-footer></app-footer>
+
+        <script src="/src/js/NavComponent.js"></script>
+
     <script src="/src/js/NavComponent.js"></script>
 </body>
+
 </html>
